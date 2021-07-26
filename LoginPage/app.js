@@ -1,11 +1,10 @@
-////   mongodb+srv://sokle:<password>@cluster0.p66oc.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
-//////////////mongodb///////////////////iPVjXVgIWF9MV27s
+
 
 const user = require("./models/users");
 const mongoose = require("mongoose");
 mongoose
   .connect(
-    `mongodb+srv://sokle:iPVjXVgIWF9MV27s@cluster0.p66oc.mongodb.net/openBoard?retryWrites=true&w=majority`,
+    `mongodb+srv://sokle*************@cluster0.p66oc.mongodb.net/openBoard?retryWrites=true&w=majority`,
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,
