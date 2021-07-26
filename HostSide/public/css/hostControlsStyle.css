@@ -1,0 +1,163 @@
+.hostControls {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+}
+
+.btn {
+  font-size: 140%;
+}
+span {
+  content: "\20AF";
+}
+
+.selectPermissionBtn {
+  background-color: #88c425;
+}
+
+.stop {
+  background-color: #ce1836;
+}
+
+.meetingEndContainer {
+  height: 100vh;
+  width: 100vw;
+  z-index: 6;
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  background: #1d976c;
+  background: -webkit-linear-gradient(to right, #93f9b9, #1d976c);
+
+  background: linear-gradient(to right, #93f9b9, #1d976c);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.meetingEndPopup {
+  height: 50%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.endmeetingspan {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 75px;
+}
+
+.clientControl {
+  position: fixed;
+  right: 10px;
+  top: 10px;
+  padding: 14px;
+  background-color: #c7b299;
+  display:none;
+}
+
+.btn{
+  margin: 4px;
+}
+
+.annotation {
+  background-color: #ecd078;
+  border: none;
+}
+
+.annotationSelction {
+  background-color: #aee239;
+  border: none;
+}
+
+.takepermission {
+  height: 2rem;
+}
+
+.takepermission img {
+  height: 100%;
+}
+
+
+/* HostSide css css */
+
+
+.gridColor{
+  font-size: 20px;
+  position: fixed;
+  right: 10px;
+  top: 10px;
+  font-weight: bold;
+  border-radius: 10px;
+  box-shadow: 12px 12px 51px black;
+  z-index: 5;
+  background-color: #636e72!important;
+
+}
+
+
+.first{
+  background-color: #fdcb6e ;
+  
+}
+.second{
+  background-color: #fdcb6e85 ;
+  
+}
+.third{
+  background-color: #fd79a785 ;
+  
+}
+.fourth{
+  background-color: #fd79a750 ;
+  
+}
+.fifth{
+  background-color: #636e72 ;
+  
+}
+.sixth{
+  background-color: #636e7257 ;
+  
+}
+.seventh{
+  background-color: #42795b88 ;
+  
+}
+.eight{
+  background-color: #f4ebc3 ;
+  
+}
+.ninth{
+  background-color: #fffedf ;
+  
+}
+.tenth{
+  background-color: #2a2c31 ;
+  
+}
+.eleventh{
+  background-color: #d3643b ;
+  
+}
+
+
+
+.changeGridSize{
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.tool-panel *{
+  height: 80%;
+} 
+
+.toolBar{
+  background-color: azure;
+}

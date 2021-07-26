@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="./css/loginStyle.css" />
+    <link rel="shortcut icon" href="./image/icon.jpg" type="image/x-icon">
+  </head>
+  <body>
+    <div class="container">
+      <form method="POST" class="loginBox">
+        <div class="textContainer">
+            Sign In OpenBoard
+        </div>
+        <div class="inputContainer">
+            <input
+            type="email"
+            name="email"
+            class="inputEmail"
+            placeholder="Enter your email Address"
+            />
+            <input
+            type="password"
+            name="password"
+            class="inputPass"
+            placeholder="Password"
+            />    
+
+            <button type="button" class ="isHost varify">I'm Host</button>
+
+        </div>
+        <div class="signinContainer">
+            <button type="submit" class="signinBtn">Sign In</button>
+            <a href="forget" class="forgetBtn">Forget password?</a>
+            <a
+              class="signupBtn"
+              href="signup"
+              >Create an account</a
+            >
+        </div>
+    </form>
+</div>
+
+<script src="./js/loginScript.js"></script>
+</body>
+</html>

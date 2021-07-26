@@ -1,0 +1,222 @@
+* {
+  box-sizing: border-box;
+}
+
+body,
+.container {
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+.container {
+  background: aquamarine;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-image: linear-gradient(to right, #decba4, #3e5151);
+}
+
+.loginBox {
+  width: 40%;
+  height: 60%;
+  background-color: #1b262c;
+  display: flex;
+  margin: 4px;
+  align-items: center;
+  flex-direction: column;
+  /* justify-content: center; */
+  box-shadow: 0px 0px 20px #e7e70f;
+  border: none;
+  border-radius: 8%;
+}
+
+.loginBox div {
+  width: 80%;
+  /* border: 2px solid; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.textContainer {
+  height: 20%;
+  font-size: 30px;
+  color: white;
+}
+
+.inputContainer {
+  height: 50%;
+}
+
+.inputContainer input {
+  width: 70%;
+  height: 2.3rem;
+  outline: none;
+  border: none;
+  border-radius: 8%;
+  background-color: #f0f0d8;
+  font-size: 17px;
+}
+
+.signinContainer {
+  height: 30%;
+}
+
+.forgetBtn {
+  font-size: 18px;
+}
+
+.signinBtn {
+  width: 50%;
+  height: 25%;
+}
+
+.signinBtn:hover {
+  background-color: red;
+  color: #f0f0d8;
+}
+
+.signupBtn {
+  font-size: 22px;
+  text-decoration: none;
+<<<<<<< HEAD
+  text-decoration: underline;
+  text-decoration-color:#decba4;
+  text-decoration-style:solid;
+  text-shadow: 0px 0px 8px purple;
+
+=======
+   text-decoration: underline;
+  text-decoration-color:#decba4;
+  text-decoration-style:solid;
+  text-shadow: 0px 0px 8px purple;
+>>>>>>> b71de8e07b80b13b2fbd92a93f4e780f3a178f8c
+}
+a {
+  color: #f0f0d8;
+  font-style: oblique;
+}
+
+.isHost:hover,
+.select {
+  background-color: #4b4b4b;
+  color: #f0f0d8;
+}
+
+.isActive {
+  display: block !important;
+}
+
+.isHost {
+  width: 40%;
+}
+
+
+<<<<<<< HEAD
+=======
+
+>>>>>>> b71de8e07b80b13b2fbd92a93f4e780f3a178f8c
+@media only screen and (max-width: 900px) {
+  .loginBox {
+    width: 60%;
+  }
+  .textContainer {
+    font-size: 24px;
+  }
+
+  .inputContainer input {
+    width: 80%;
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .loginBox {
+    width: 70%;
+  }
+  .textContainer {
+    font-size: 22px;
+  }
+
+  .inputContainer input {
+    width: 90%;
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .loginBox {
+    width: 80%;
+  }
+  .textContainer {
+    font-size: 20px;
+  }
+  .inputContainer input {
+    width: 95%;
+    font-size: 12px;
+  }
+}
+  @media only screen and (max-width: 300px) {
+    .loginBox {
+      width: 90%;
+    }
+    .textContainer {
+      font-size: 12px;
+    }
+    .inputContainer input {
+      width: 95%;
+      font-size: 12px;
+      height: 1.8rem;
+    }
+    .forgetBtn {
+      font-size: 14px;
+    }
+    .signupBtn {
+      font-size: 16px;
+    }
+    .isHost {
+      width: 70%;
+      height: 15%;
+    }
+
+    .signinBtn {
+      width: 70%;
+      height: 20%;
+    }
+  
+  }
+
+  @media only screen and (max-width: 180px) {
+
+    .textContainer {
+      font-size: 9px;
+    }
+    .inputContainer input {
+      width: 95%;
+      font-size: 9px;
+      height: 1.6rem;
+    }
+    .forgetBtn {
+      font-size: 10px;
+    }
+    .signupBtn {
+      font-size: 11px;
+    }
+    .isHost {
+      width: 70%;
+      height: 15%;
+    }
+
+    .signinBtn {
+      width: 70%;
+      height: 20%;
+    }
+  
+<<<<<<< HEAD
+  }
+=======
+  }
+>>>>>>> b71de8e07b80b13b2fbd92a93f4e780f3a178f8c

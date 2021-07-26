@@ -1,0 +1,222 @@
+* {
+  box-sizing: border-box;
+}
+
+body,
+.container {
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+.container {
+  background: aquamarine;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-image: linear-gradient(to right, #decba4, #3e5151);
+}
+
+.forgetBox {
+  width: 40%;
+  height: 60%;
+  background-color: #1b262c;
+  display: flex;
+  margin: 4px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  box-shadow: 0px 0px 20px #e7e70f;
+  border: none;
+  border-radius: 8%;
+}
+
+.forgetBox div {
+  width: 80%;
+  /* border: 2px solid; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: space-evenly; */
+}
+
+.textBox {
+  height: 20%;
+  font-size: 26px;
+  color: white;
+}
+
+.emailId {
+  height: 2.3rem;
+  outline: none;
+  border-radius: 8%;
+  border: none;
+  width: 70%;
+}
+
+span {
+  width: 70%;
+  height: 20%;
+  margin-bottom: 4px;
+  font-size: 20px;
+  color: #decba4;
+  text-align: center;
+}
+
+button {
+  width: 40%;
+  height: 2.3rem;
+  border: none;
+}
+
+button:hover {
+  background-color: red;
+  color: #f0f0d8;
+}
+
+.btn {
+  height: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 900px) {
+  .forgetBox {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .forgetBox {
+    width: 65%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .forgetBox {
+    width: 90%;
+  }
+
+  span {
+    width: 70%;
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width: 300px) {
+  .forgetBox {
+    width: 90%;
+  }
+  .textBox {
+    height: 20%;
+    font-size: 16px;
+  }
+  span {
+    width: 80%;
+    font-size: 12px;
+  }
+  button {
+    width: 45%;
+  }
+}
+
+@media only screen and (max-width: 150px) {
+  .forgetBox {
+    width: 90%;
+  }
+  .textBox {
+    height: 20%;
+    font-size: 12px;
+  }
+  span {
+    width: 80%;
+    font-size: 12px;
+  }
+  button {
+    width: 65%;
+  }
+}
+
+<<<<<<< HEAD
+=======
+.btn{
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 900px) {
+  .forgetBox {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .forgetBox {
+    width: 65%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .forgetBox {
+    width: 90%;
+  }
+
+  span {
+    width: 70%;
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width: 300px) {
+  .forgetBox {
+    width: 90%;
+  }
+  .textBox {
+    height: 20%;
+    font-size: 16px;
+  }
+  span {
+    width: 80%;
+    font-size: 12px;
+  }
+  button {
+    width: 45%;
+  }
+}
+
+@media only screen and (max-width: 150px) {
+  .forgetBox {
+    width: 90%;
+  }
+  .textBox {
+    height: 20%;
+    font-size: 12px;
+  }
+  span {
+    width: 80%;
+    font-size: 12px;
+  }
+  button {
+    width: 65%;
+  }
+}
+
+>>>>>>> b71de8e07b80b13b2fbd92a93f4e780f3a178f8c
+@media only screen and (max-width: 100px) {
+  .forgetBox {
+    width: 100%;
+  }
+  .textBox {
+    font-size: 16px;
+  }
+  span {
+    width: 80%;
+    font-size: 10px;
+  }
+  button {
+    width: 90%;
+  }
+  
+}

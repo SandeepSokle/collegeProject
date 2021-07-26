@@ -1,0 +1,86 @@
+.hostControls {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+}
+
+.btn {
+  font-size: 140%;
+}
+span {
+  content: "\20AF";
+}
+
+.selectPermissionBtn {
+  background-color: #88c425;
+}
+
+.stop {
+  background-color: #ce1836;
+}
+
+.meetingEndContainer {
+  height: 100vh;
+  width: 100vw;
+  z-index: 6;
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  background: #1d976c;
+  background: -webkit-linear-gradient(to right, #93f9b9, #1d976c);
+
+  background: linear-gradient(to right, #93f9b9, #1d976c);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.meetingEndPopup {
+  height: 50%;
+  width: 50%;
+  /* background: #eacda3;  fallback for old browsers */
+  /* background: -webkit-linear-gradient(to right, #d6ae7b, #eacda3);  /* Chrome 10-25, Safari 5.1-6 */
+  /* background: linear-gradient(to right, #d6ae7b, #eacda3); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.endmeetingspan {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 75px;
+}
+
+.clientControl {
+  position: fixed;
+  right: 10px;
+  top: 10px;
+  padding: 14px;
+  background-color: #c7b299;
+  display: flex;
+}
+
+.btn{
+  margin: 4px;
+}
+
+.annotation {
+  background-color: #ecd078;
+  border: none;
+}
+
+.annotationSelction {
+  background-color: #aee239;
+  border: none;
+}
+
+.takepermission {
+  height: 2rem;
+}
+
+.takepermission img {
+  height: 100%;
+}

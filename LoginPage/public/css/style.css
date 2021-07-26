@@ -1,0 +1,237 @@
+*{
+    box-sizing: border-box;
+}
+
+body ,.container{
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+
+.container{
+    background: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-image: linear-gradient(to right, #DECBA4, #3E5151);
+
+}
+
+
+.loginBox{
+    width: 40%;
+    height: 60%;
+    background-color: #1b262c;
+    display: flex;
+    margin: 4px;
+    align-items: center;
+    flex-direction: column;
+    /* justify-content: center; */
+    box-shadow: 0px 0px 20px #e7e70f;
+    border: none;
+    border-radius: 8%;
+}
+
+.loginBox div{
+    width: 80%;
+    /* border: 2px solid; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.textContainer{
+    height: 20%;
+    font-size: 26px;
+    color: white;
+}
+
+
+.inputContainer{
+    height: 50%;
+}
+
+.inputContainer input{
+    width: 70%;
+    height: 2.3rem;
+    outline: none;
+    border: none;
+    border-radius: 8%;
+    background-color: #f0f0d8;
+    font-size: 17px;
+}
+
+
+.signinContainer{
+    height: 30%;
+}
+
+.loginForgetBtn{
+    font-size: 18PX;
+    cursor:pointer;
+    color:tan;
+}
+
+.signinBtn{
+    width: 50%;
+    height: 25%;
+    cursor:pointer;
+}
+
+.signinBtn:hover{
+    background-color: red;
+    color: #f0f0d8;
+}
+
+.loginSignupBtn{
+    font-size: 22px;
+    text-decoration: none;
+    color: rgba(172, 126, 126, 0.89);
+    cursor:pointer;
+}
+
+a{
+    color: #f0f0d8;
+    font-style:oblique;
+}
+
+.isHost:hover ,.select{
+    background-color: #4B4B4B;
+    color: #f0f0d8;
+}
+
+.isActive{
+display: block!important;
+
+}
+
+.isHost{
+    width: 40%;
+    cursor:pointer;
+}
+
+
+.signUpContainer {
+    width: 40%;
+    height: 60%;
+    background-color: #1b262c;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* margin: 4px; */
+    /* justify-content: center; */
+    box-shadow: 0px 0px 20px #e7e70f;
+    border: none;
+    border-radius: 8%;
+  }
+  
+  .signUpContainer div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  
+  .textBox {
+    height: 10%;
+    font-size: 26px;
+    color: white;
+  }
+  
+  .inputContainer {
+    height: 65%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+  }
+  
+  .inputContainer * {
+    width: 70%;
+    height: 2rem;
+    border: none;
+    border-radius: 8%;
+    outline: none;
+  }
+  
+  .signupBox {
+    height: 25%;
+  }
+  
+  .forgetBtn {
+    font-size: 18px;
+    color: #f0f0d8;
+    cursor:pointer;
+  }
+  
+
+  
+.forgetBox{
+    width: 40%;
+    height: 60%;
+    background-color: #1b262c;
+    display: flex;
+    margin: 4px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    box-shadow: 0px 0px 20px #e7e70f;
+    border: none;
+    border-radius: 8%;
+}
+
+.forgetBox div{
+    width: 80%;
+    /* border: 2px solid; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-evenly; */
+}
+
+.textBox{
+    height: 20%;
+    font-size: 26px;
+    color: white;
+}
+
+.emailId{
+    height: 2.3rem;
+    outline: none;
+    border-radius: 8%;
+    border: none;
+    width: 70%;
+
+}
+
+span{
+width: 70%;
+height: 20%;
+margin-bottom: 4px;
+font-size: 20px;
+color: #DECBA4;
+text-align: center;
+}
+
+button{
+    width: 40%;
+    height: 2.3rem;
+    border: none;
+}
+
+button:hover{
+    background-color: red;
+    color: #f0f0d8;
+}
+
+.btn{
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
